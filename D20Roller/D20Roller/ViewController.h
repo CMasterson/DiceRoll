@@ -2,7 +2,7 @@
 //  ViewController.h
 //  D20Roller
 //
-//  Created by Consie on 15/02/2017.
+//  Created by Conor on 15/02/2017.
 //  Copyright © 2017 Conor. All rights reserved.
 //
 
