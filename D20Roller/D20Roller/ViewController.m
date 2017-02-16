@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+    @property (weak, nonatomic) IBOutlet UILabel *rolledNumberLabel;
+    @property (weak, nonatomic) IBOutlet UIImageView *dieImageView;
 
 @end
 
@@ -23,6 +25,8 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)rollButtonTapped:(id)sender {
 }
 
 
