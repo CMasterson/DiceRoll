@@ -28,7 +28,7 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)rollButtonTapped:(id)sender {
-    rolledNumberLabel.text = [NSString stringWithFormat:@"%i",(arc4random() % 20)];
+    rolledNumberLabel.text = [NSString stringWithFormat:@"%i",((arc4random() % 20) + 1)];
 }
 
 
