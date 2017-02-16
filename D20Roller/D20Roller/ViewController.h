@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+    @property (weak, nonatomic) IBOutlet UILabel *rolledNumberLabel;
+    @property (weak, nonatomic) IBOutlet UIImageView *dieImageView;
 
 @end
 
